@@ -1,0 +1,19 @@
+#Par.txt contains information about the parameters to be estimated. It includes spatial and temporal locations of parameters and the reference values when available. 
+#It must be written as follows:
+#1st column: x-coordinates
+#2nd column: y-coordinates
+#3rd column: z-coordinates
+#4th column: sampling times
+#5th column: reference values
+#If the reference solution is not available, as in most cases, the 5th column must be filled with NaN. Also,
+#if a parameter does not depend on time and/or space its coordinates and time must be replaced with NaN.
+#Np is the total number of parameters.
+
+X_Par_1   Y_Par_1   Z_Par_1   t_Par_1   Par_1
+X_Par_2   Y_Par_2   Z_Par_2   t_Par_2   Par_2
+   .         .         .         .        .
+   .         .         .         .        .
+   .         .         .         .        .
+X_Par_Np  Y_Par_Np  Z_Par_Np  t_Par_Np  Par_Np   
+
+Note that the header must be deleted!
