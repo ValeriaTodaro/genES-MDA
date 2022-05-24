@@ -1,10 +1,10 @@
 
 						 University of Parma, Italy
-							    &
-					   Universitat Politènica de València, Spain
+							     &
+					 Universitat Politènica de València, Spain
 
-						     Valeria Todaro 
-						       May 2022               
+						      Valeria Todaro 
+						         May 2022               
 
 
 genES-MDA is an open-source Python software package for the solution of inverse
