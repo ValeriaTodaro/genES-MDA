@@ -1,11 +1,11 @@
-**************************************************
-    	  University of Parma, Italy
-    		     &
-    Universitat Politènica de València, Spain
-    
-	      Valeria Todaro 
-	        April 2022               
-**************************************************
+*****************************************************************************************************************************************
+							 University of Parma, Italy
+								    &
+						   Universitat PolitÃ¨nica de ValÃ¨ncia, Spain
+
+							     Valeria Todaro 
+							       May 2022               
+*****************************************************************************************************************************************
 
 
 genES-MDA is an open-source Python software package for the solution of inverse
@@ -36,7 +36,3 @@ Examples contains the following case study applications:
 	Case3	: identification of the release history of contaminant spills in an aquifer based on observed concentration data.
 
 To execute one of the application example, replace the file contained in genESMDA with those reported in Case1, Case2 or Case3 folders.
-
-If you use genES-MDA, please, cite the following paper:
-
-###
