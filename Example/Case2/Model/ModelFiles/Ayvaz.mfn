@@ -1,0 +1,19 @@
+# MF2K NAME file
+#
+# MODFLOW 2005
+# Output Files
+LIST               1   Ayvaz.out
+DATA(BINARY)       2   Ayvaz.hed
+DATA(BINARY)       40  Ayvaz.ccf
+LMT6               3   Ayvaz.lmt
+#ASP                4   Ayvaz.asp
+#
+# Global Input Files
+DIS                7   Ayvaz.dis
+#
+# Flow Process Input Files
+BAS6               8   Ayvaz.ba6
+LPF                9   Ayvaz.lpf
+OC                 10  Ayvaz.oc
+CHD                11  Ayvaz.chd
+PCG                12  Ayvaz.pcg

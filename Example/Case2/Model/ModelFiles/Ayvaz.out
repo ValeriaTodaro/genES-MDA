@@ -1,0 +1,45 @@
+                                  MODFLOW-2005     
+      U.S. GEOLOGICAL SURVEY MODULAR FINITE-DIFFERENCE GROUND-WATER FLOW MODEL
+                            VERSION 1.12.00 2/3/2017
+
+ LIST FILE: Ayvaz.out
+                         UNIT    1
+
+ OPENING Ayvaz.dis
+ FILE TYPE:DIS   UNIT    7   STATUS:OLD    
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING Ayvaz.lmt
+ FILE TYPE:LMT6   UNIT    3   STATUS:OLD    
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING Ayvaz.ba6
+ FILE TYPE:BAS6   UNIT    8   STATUS:OLD    
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING Ayvaz.lpf
+ FILE TYPE:LPF   UNIT    9   STATUS:OLD    
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING Ayvaz.oc
+ FILE TYPE:OC   UNIT   10   STATUS:OLD    
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING Ayvaz.chd
+ FILE TYPE:CHD   UNIT   11   STATUS:OLD    
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING Ayvaz.pcg
+ FILE TYPE:PCG   UNIT   12   STATUS:OLD    
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING ModelFiles\Ayvaz.ccf
+ FILE TYPE:DATA(BINARY)   UNIT   40   STATUS:REPLACE
+ FORMAT:BINARY                 ACCESS:SEQUENTIAL          
+
+ *** ERROR OPENING FILE "ModelFiles\Ayvaz.ccf" ON UNIT    40
+       SPECIFIED FILE STATUS: REPLACE
+       SPECIFIED FILE FORMAT: BINARY              
+       SPECIFIED FILE ACCESS: SEQUENTIAL          
+       SPECIFIED FILE ACTION: READWRITE           
+  -- STOP EXECUTION (SGWF2BAS7OPEN)

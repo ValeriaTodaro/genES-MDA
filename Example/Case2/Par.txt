@@ -1,0 +1,5 @@
+NaN	NaN	NaN	NaN	34.56
+NaN	NaN	NaN	NaN	17.28
+NaN	NaN	NaN	NaN	8.64
+NaN	NaN	NaN	NaN	25.92
+NaN	NaN	NaN	NaN	60.48
