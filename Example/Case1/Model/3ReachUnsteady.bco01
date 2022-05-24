@@ -1,0 +1,58 @@
+ 
+                                              HEC-RAS - River Analysis System
+ 
+ 
+Project File:  E:\Valeria Todaro\Ricerca\kalman_filter\Python_KF\Cases\Hec_RevRout_ReachUnsteady\Model\3ReachUnsteady.prj
+ 
+Project Name:  Multiple Reach Data Set
+ 
+ 
+Plan Name:     Existing Conditions
+ 
+Short ID:      existing
+ 
+
+Starting Time:   02Sep1998 2400
+
+Ending Time:     05Sep1998 2400
+
+
+                ################################################
+                #                                              #
+                #                                              #
+                #       1D and 2D Unsteady Flow Module         #
+                #                                              #
+                #                                              #
+                #          HEC-RAS 5.0.7 March 2019            #
+                #                                              #
+                #             23MAR21 at 16:00:00              #
+                #                                              #
+                ################################################
+ 
+ 
+ 
+
+
+
+                 Volume Accounting in 1000 m^3
+
+                           External Boundary Flux of Water
+
+         US Inflow       Lat Hydro      DS Outflow        SA Hydro     Groundwater       2D Inflow      2D Outflow      Diversions
+         *********       *********      **********        ********     ***********       *********      **********      **********
+            20078.                          20080.                                                                                
+
+                      River Reaches, Storage Areas, and 2D Areas
+
+    Start 1D Reach   Starting SA's     Starting 2D  Final 1D Reach      Final SA's  Final 2D Areas
+    **************   *************     ***********  **************      **********  **************
+             38.94                                           37.56                                
+
+                             Error   Percent Error
+
+                             *****   *************
+                         -0.241980        0.001203
+
+
+
+

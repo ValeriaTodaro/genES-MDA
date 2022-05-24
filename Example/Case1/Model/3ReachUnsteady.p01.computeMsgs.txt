@@ -1,0 +1,196 @@
+Message  | Plan: 'Existing Conditions' (3ReachUnsteady.p01)
+Message  | Simulation started at: 23Mar2021 03:59:59 PM
+Message  | PROCESS:RasGeomWriter
+Message  | 
+Message  | Writing Geometry
+Progress | 1
+Message  | Completed Writing Geometry
+Message  | PROCESS:RASGeomPreprocess
+Message  | 	
+Message  | Geometric Preprocessor HEC-RAS 5.0.7 March 2019
+Progress | 0.2
+Progress | 0.3
+Message  |             3 Internal Boundary curve(s) have been read in
+Progress | 4.347826E-02
+Progress | 8.695652E-02
+Progress | 0.1304348
+Progress | 0.173913
+Progress | 0.2173913
+Progress | 0.2608696
+Progress | 0.3043478
+Progress | 0.3478261
+Progress | 0.3913043
+Progress | 0.4347826
+Progress | 0.4782609
+Progress | 0.5217391
+Progress | 0.5652174
+Progress | 0.6086956
+Progress | 0.6521739
+Progress | 0.6956522
+Progress | 0.7391304
+Progress | 0.7826087
+Progress | 0.8260869
+Progress | 0.8695652
+Progress | 0.9130435
+Progress | 0.9565217
+Progress | 1
+Message  | 
+Message  | Finished Processing Geometry
+Message  | 
+Message  | Starting to copy Geometry Data to Results
+Message  | Completed copying Geometry Data to Results
+Message  | 
+Message  | PROCESS:RasUnsteady
+Message  | 
+Message  | Performing Unsteady Flow Simulation  HEC-RAS 5.0.7 March 2019
+Message  | 
+Progress | 0.1
+Progress | 0.2
+Progress | 0.3
+Progress | 0.3204189
+Progress | 0.3408377
+Progress | 0.3612566
+Progress | 0.3816754
+Progress | 0.4020942
+Progress | 0.4225131
+Progress | 0.442932
+Progress | 0.4633508
+Progress | 0.4837697
+Progress | 0.5041885
+Progress | 0.5246074
+Progress | 0.5450262
+Progress | 0.5654451
+Progress | 0.5858639
+Progress | 0.6062828
+Progress | 0.6347826
+Progress | 0.6869565
+Progress | 0.7391305
+Progress | 0.7739131
+Progress | 0.826087
+Progress | 0.8608696
+Progress | 0.8956522
+Progress | 0.9304348
+Progress | 0.9652175
+Progress | 1.157407E-03
+Progress | 2.199074E-02
+Progress | 4.282407E-02
+Progress | 6.365741E-02
+Progress | 8.449075E-02
+Progress | 0.1053241
+Progress | 0.1261574
+Progress | 0.1469907
+Progress | 0.1678241
+Progress | 0.1886574
+Progress | 0.2094907
+Progress | 0.2303241
+Progress | 0.2511574
+Progress | 0.2719907
+Progress | 0.2928241
+Progress | 0.3136574
+Progress | 0.3344907
+Progress | 0.3553241
+Progress | 0.3761574
+Progress | 0.3969907
+Progress | 0.4178241
+Progress | 0.4386574
+Progress | 0.4594907
+Progress | 0.4803241
+Progress | 0.5011574
+Progress | 0.5219907
+Progress | 0.542824
+Progress | 0.5636574
+Progress | 0.5844907
+Progress | 0.605324
+Progress | 0.6261574
+Progress | 0.6469907
+Progress | 0.667824
+Progress | 0.6886574
+Progress | 0.7094907
+Progress | 0.730324
+Progress | 0.7511574
+Progress | 0.7719907
+Progress | 0.792824
+Progress | 0.8136574
+Progress | 0.8344907
+Progress | 0.855324
+Progress | 0.8761574
+Progress | 0.8969908
+Progress | 0.9178241
+Progress | 0.9386575
+Progress | 0.9594908
+Progress | 0.9803241
+Message  | Writing Results to DSS
+Message  |  
+Progress | 1
+Message  | 
+Message  | Finished Unsteady Flow Simulation
+Message  | Reading Data for Post Process
+Message  | PROCESS:RasSteady
+Progress | 0.1
+Progress | 0.2
+Message  | 	
+Message  | Running Post Processor  HEC-RAS 5.0.7 March 2019
+Progress | 0.1
+Progress | 0.3
+Progress | 0.4
+Progress | 0.5
+Progress | 0.6
+Progress | 0.7
+Progress | 0.8
+Progress | 0.9
+Progress | 1
+Progress | 0.01
+Progress | 0.031
+Progress | 0.053
+Progress | 0.084
+Progress | 0.105
+Progress | 0.126
+Progress | 0.148
+Progress | 0.178
+Progress | 0.2
+Progress | 0.221
+Progress | 0.253
+Progress | 0.273
+Progress | 0.294
+Progress | 0.316
+Progress | 0.347
+Progress | 0.368
+Progress | 0.389
+Progress | 0.411
+Progress | 0.442
+Progress | 0.463
+Progress | 0.484
+Progress | 0.505
+Progress | 0.526
+Progress | 0.547
+Progress | 0.569
+Progress | 0.6
+Progress | 0.621
+Progress | 0.642
+Progress | 0.674
+Progress | 0.695
+Progress | 0.727
+Progress | 0.757
+Progress | 0.779
+Progress | 0.8
+Progress | 0.832
+Progress | 0.863
+Progress | 0.884
+Progress | 0.905
+Progress | 0.926
+Progress | 0.947
+Progress | 0.968
+Progress | 0.99
+Progress | 1
+Message  | 
+Message  | Finished Post Processing
+Message  | 
+Message  | 
+Message  | Computations Summary
+Message  | 
+Message  | Computation Task	Time(hh:mm:ss)
+Message  | Completing Geometry(64)	<1
+Message  | Preprocessing Geometry(64)	<1
+Message  | Unsteady Flow Computations(64)	<1
+Message  | Post-Processing(64)	       1
+Message  | Complete Process	       2
