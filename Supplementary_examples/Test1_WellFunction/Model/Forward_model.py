@@ -17,7 +17,6 @@ def well_function(T, S, t):
     """
     Q = 5e-4  # Pumping rate in (m³/s)
     r = 15    # Distance from well (m)
-    t = np.arange(1, 2*60+1, 1)*60 #Time (s)
         
     u = (r**2 * S) / (4 * T * t)
     
