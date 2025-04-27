@@ -1,7 +1,7 @@
 import numpy as np
 from scipy.special import expi
 
-def well_function(T, S):
+def well_function(T, S, t):
     """
     Computes the drawdown at a given radial distance and time due to a pumping well using Theis well function
     
@@ -26,6 +26,4 @@ def well_function(T, S):
     
     s = (Q / (4 * np.pi * T)) * W_u
     
-    with open('pred.txt','wb') as file:
-        data = np.column_stack((t, s))
-        np.savetxt(file, data, fmt=['%.0f','%.3e'], newline='\n')
+    return s
