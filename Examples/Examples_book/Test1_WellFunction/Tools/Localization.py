@@ -126,9 +126,9 @@ def SpaceLocal(a,pos_par,pos_obs):
               rho_xy[row,col]=0    
     for row in range(0,d_xx.shape[0]):
         for col in range(0,d_xx.shape[1]):
-           np.sqrt((x_par[row]-x_par[col])**2+\
-                   (y_par[row]-y_par[col])**2+\
-                   (z_par[row]-z_par[col])**2)
+          d_xx[row,col]=np.sqrt((x_par[row]-x_par[col])**2+\
+                                (y_par[row]-y_par[col])**2+\
+                                (z_par[row]-z_par[col])**2)
            if d_xx[row,col]<=a:
               rho_xx[row,col]=-1/4*(abs(d_xx[row,col])/a)**5+\
                               1/2*(abs(d_xx[row,col])/a)**4+\
@@ -144,4 +144,5 @@ def SpaceLocal(a,pos_par,pos_obs):
                               2/3*a/abs(d_xx[row,col])
            elif d_xx[row,col]>2*a:
               rho_xx[row,col]=0
+
     return (rho_yy,rho_xy,rho_xx)
